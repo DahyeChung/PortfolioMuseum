@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Dahye_Test.unity
+    guid: ef80147b07477dc4a8d7479648f4e1cf
   m_configObjects: {}
