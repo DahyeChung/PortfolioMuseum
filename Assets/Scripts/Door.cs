@@ -21,11 +21,14 @@ public class Door : MonoBehaviour
     {
         Debug.Log(Vector3.Distance(transform.position, player.transform.position));
 
-        // compare tag and if the player is close to the door, emphasize it
         if (Vector3.Distance(transform.position, player.transform.position) < 25)
         {
-            Debug.Log("문 감지 머티리얼 변경");
             Emphasize();
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                Open();
+            }
         }
         else
         {
@@ -35,14 +38,6 @@ public class Door : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject == player)
-        {
-            Debug.Log("트리거 발동");
-            Open();
-        }
-    }
 
     public void Emphasize()
     {
