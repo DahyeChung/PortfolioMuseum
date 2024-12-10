@@ -7,6 +7,7 @@ public class Button2 : MonoBehaviour
     AudioSource audiosourceclick;
 
     public AudioSource Music;
+    public AudioSource Lobby;
 
 
 
@@ -40,10 +41,12 @@ public class Button2 : MonoBehaviour
         if (Music.isPlaying)
         {
             Music.Pause();
+            Lobby.Play();
         }
         else
         {
             Music.Play();
+            Lobby.Pause();
         }
 
     }
