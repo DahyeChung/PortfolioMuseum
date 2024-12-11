@@ -19,8 +19,6 @@ public class Door : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(Vector3.Distance(transform.position, player.transform.position));
-
         if (Vector3.Distance(transform.position, player.transform.position) < 15)
         {
             Emphasize();
