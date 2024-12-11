@@ -53,7 +53,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6, y: 17, z: 6}
+  m_Size: {x: 12, y: 17, z: 12}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2537668626844916014
 MonoBehaviour:
@@ -67,6 +67,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f3adae678f36164b9dbb2407a5fea12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  video: {fileID: 0}
 --- !u!1 &1000634109311344631
 GameObject:
   m_ObjectHideFlags: 0

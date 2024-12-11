@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Button2 : MonoBehaviour
 {
-    AudioSource audiosourceclick;
+   
 
     public AudioSource Music;
     public AudioSource Lobby;
@@ -26,12 +26,13 @@ public class Button2 : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (other.CompareTag("Player"))
         {
-            audiosourceclick.Play();
-
-            PlaynPause();
-
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+               
+                PlaynPause();
+            }
         }
     }
 

@@ -4,42 +4,49 @@ using UnityEngine.Video;
 public class Button : MonoBehaviour
 {
 
-    AudioSource audiosource;
-
-    public VideoPlayer video;
-
-
-
+    //private AudioSource audiosource; 
+    public VideoPlayer video;      
     void Start()
     {
-        video.Pause();
+        // Initialize components
+        video.Pause(); // Ensure the video starts paused
+      //  audiosource = GetComponent<AudioSource>();
+
+        
     }
 
     private void OnTriggerStay(Collider other)
     {
-        if (Input.GetKeyDown(KeyCode.E))
+       
+        if (other.CompareTag("Player"))
         {
-            audiosource.Play();
+            
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Debug.Log("E key pressed by Player");
 
-            PlaynPause();
-
+              //  if (audiosource != null)
+               // {
+              //      audiosource.Play(); 
+              //  }
+//
+                PlaynPause(); 
+            }
         }
     }
-
 
     void PlaynPause()
     {
         if (video.isPlaying)
         {
             video.Pause();
+            Debug.Log("Video Paused");
         }
         else
         {
             video.Play();
+            Debug.Log("Video Playing");
         }
-
     }
-
-
 
 }
