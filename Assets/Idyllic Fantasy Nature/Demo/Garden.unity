@@ -440,7 +440,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 3b4b2778b6543a84ba411d930479f855, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.195
+  m_Volume: 0.275
   m_Pitch: 0.86
   Loop: 1
   Mute: 0
@@ -2011,7 +2011,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9a810598d45d80c438007766e16a4a76, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.291
+  m_Volume: 0.404
   m_Pitch: 0.86
   Loop: 1
   Mute: 0
@@ -3498,6 +3498,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 344904778207081987, guid: f2e0b7ae4dae8cf44955bccd3512b213, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5238820401998598406, guid: f2e0b7ae4dae8cf44955bccd3512b213, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.61038387
@@ -3580,16 +3584,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7492485762413666113, guid: f2e0b7ae4dae8cf44955bccd3512b213, type: 3}
       propertyPath: m_Pitch
-      value: 0.69
+      value: 0.79
       objectReference: {fileID: 0}
     - target: {fileID: 7492485762413666113, guid: f2e0b7ae4dae8cf44955bccd3512b213, type: 3}
       propertyPath: m_Volume
-      value: 0.014
+      value: 0.96
       objectReference: {fileID: 0}
     - target: {fileID: 7492485762413666113, guid: f2e0b7ae4dae8cf44955bccd3512b213, type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: beb998e4cc2b09f4588eb6554b05591e, type: 3}
+    - target: {fileID: 7492485762413666113, guid: f2e0b7ae4dae8cf44955bccd3512b213, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 2690828236566706898, guid: f09a6cdd667068f44a35fd4b1adc6161, type: 2}
     - target: {fileID: 7492485762413666113, guid: f2e0b7ae4dae8cf44955bccd3512b213, type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
       value: 0
@@ -9488,7 +9496,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 012acb3832aee5c448c9ec67311caf06, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.501
+  m_Volume: 0.388
   m_Pitch: 0.86
   Loop: 1
   Mute: 0
@@ -15742,7 +15750,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: fc22fbdba24dad840a82e4444061718a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.394
+  m_Volume: 0.417
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -17053,7 +17061,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f622ed24a070ac44bab45dac9a4a1894, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.501
+  m_Volume: 0.422
   m_Pitch: 0.86
   Loop: 1
   Mute: 0
@@ -17062,7 +17070,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 5.5
-  MaxDistance: 6.1
+  MaxDistance: 9.38
   Pan2D: 0
   rolloffMode: 2
   BypassEffects: 0
@@ -17072,16 +17080,16 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.16148996
-      value: 0.6029053
-      inSlope: -1.4351192
-      outSlope: -1.4351192
+      time: 0
+      value: 0.17385864
+      inSlope: -0.051522195
+      outSlope: -0.051522195
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0
+      outWeight: 0.21931908
     - serializedVersion: 3
-      time: 0.9442749
+      time: 0.8328247
       value: 0
       inSlope: -0.6973624
       outSlope: -0.6973624

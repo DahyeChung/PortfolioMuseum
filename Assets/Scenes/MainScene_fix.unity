@@ -480,7 +480,7 @@ PrefabInstance:
       objectReference: {fileID: 32900000, guid: 822ace8850be7c447b56e7322bc69004, type: 3}
     - target: {fileID: 6596373647191893461, guid: e5160f27ca8690147a07a21e420abb83, type: 3}
       propertyPath: m_DirectAudioVolumes.Array.data[0]
-      value: 0.265
+      value: 0.33
       objectReference: {fileID: 0}
     - target: {fileID: 6860956057132550454, guid: e5160f27ca8690147a07a21e420abb83, type: 3}
       propertyPath: m_Name
@@ -734,7 +734,7 @@ PrefabInstance:
       objectReference: {fileID: 32900000, guid: 5aefbb38919b37f4fa4cb78acebd6424, type: 3}
     - target: {fileID: 6596373647191893461, guid: e5160f27ca8690147a07a21e420abb83, type: 3}
       propertyPath: m_DirectAudioVolumes.Array.data[0]
-      value: 0.102
+      value: 0.178
       objectReference: {fileID: 0}
     - target: {fileID: 6860956057132550454, guid: e5160f27ca8690147a07a21e420abb83, type: 3}
       propertyPath: m_Name
@@ -9025,7 +9025,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -6525228394027373639, guid: f09a6cdd667068f44a35fd4b1adc6161, type: 2}
-  m_audioClip: {fileID: 8300000, guid: e116ea98245662143a78c1be86d16499, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6d47425e4a511b540a548aa42e636bc3, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -11869,7 +11869,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6596373647191893461, guid: e5160f27ca8690147a07a21e420abb83, type: 3}
       propertyPath: m_DirectAudioVolumes.Array.data[0]
-      value: 0.207
+      value: 0.365
       objectReference: {fileID: 0}
     - target: {fileID: 6860956057132550454, guid: e5160f27ca8690147a07a21e420abb83, type: 3}
       propertyPath: m_Name
@@ -11978,6 +11978,18 @@ PrefabInstance:
       propertyPath: m_Center.x
       value: 4.3158016
       objectReference: {fileID: 0}
+    - target: {fileID: 1336637347925284037, guid: b33099bfb3749d84c985ea6f678d4866, type: 3}
+      propertyPath: m_Volume
+      value: 0.405
+      objectReference: {fileID: 0}
+    - target: {fileID: 1336637347925284037, guid: b33099bfb3749d84c985ea6f678d4866, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b85b57ff2e3826c479b03779ee2e6804, type: 3}
+    - target: {fileID: 1336637347925284037, guid: b33099bfb3749d84c985ea6f678d4866, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -6525228394027373639, guid: f09a6cdd667068f44a35fd4b1adc6161, type: 2}
     - target: {fileID: 3664870216390909276, guid: b33099bfb3749d84c985ea6f678d4866, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.7206497
@@ -14994,7 +15006,7 @@ PrefabInstance:
       objectReference: {fileID: 32900000, guid: 14dc10bde32f2ba4e9dc78e10e067251, type: 3}
     - target: {fileID: 6596373647191893461, guid: e5160f27ca8690147a07a21e420abb83, type: 3}
       propertyPath: m_DirectAudioVolumes.Array.data[0]
-      value: 0.428
+      value: 0.472
       objectReference: {fileID: 0}
     - target: {fileID: 6860956057132550454, guid: e5160f27ca8690147a07a21e420abb83, type: 3}
       propertyPath: m_Name

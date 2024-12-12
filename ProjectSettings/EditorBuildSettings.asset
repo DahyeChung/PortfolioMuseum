@@ -15,9 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Outside.unity
     guid: 899e9d5292dabd349a3720f228aa20c0
   - enabled: 1
-    path: Assets/Idyllic Fantasy Nature/Demo/Garden.unity
-    guid: 00ad17d337a65f940adcf6e7def9f43e
-  - enabled: 1
     path: Assets/Scenes/MainScene_fix.unity
     guid: f2aaaab139f90294d95ff8469de51bd8
+  - enabled: 1
+    path: Assets/Idyllic Fantasy Nature/Demo/Garden.unity
+    guid: 00ad17d337a65f940adcf6e7def9f43e
   m_configObjects: {}
